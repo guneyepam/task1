@@ -1,0 +1,40 @@
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.columns {
+  display: flex;
+  gap: 1rem;
+}
+
+.column {
+  flex: 1;
+  background: #f0f0f0;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.task {
+  background: white;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task button {
+  margin-left: 0.5rem;
+}
+
+.add-task {
+  margin-bottom: 2rem;
+}
+
+.add-task input {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
